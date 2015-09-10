@@ -7,6 +7,7 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
+<link rel="import" href="../font-roboto/roboto.html">
 
 <dom-module id="paper-styles-global">
   <template>
@@ -34,7 +35,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     /* Mixins */
 
     /* [paper-font] */
-    body {
+    :host {
       font-family: 'Roboto', 'Noto', sans-serif;
       -webkit-font-smoothing: antialiased;  /* OS X subpixel AA bleed bug */
     }
@@ -88,7 +89,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     /* Overrides */
 
-    body, a {
+    :host, a {
       color: #212121;
     }
 
