@@ -1,0 +1,27 @@
+{
+  "name": "paper-style-modules",
+  "version": "0.1.0",
+  "homepage": "https://github.com/zerodevx/paper-style-modules/tree/style-modules",
+  "authors": [
+    "Jason Lee <zerodevx@gmail.com>"
+  ],
+  "description": "A style-module version of PolymerElements' <paper-styles> that's compatible with Polymer 1.1+",
+  "main": "index.html",
+  "keywords": [
+    "polymer",
+    "web-components",
+    "zerodevx",
+    "blog"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-roboto": "PolymerElements/font-roboto#^1.0.0"
+  }
+}
